@@ -25,3 +25,8 @@
 # > for comment 
 
 # git commit -m "First Commit" 
+
+
+# to track everything we have 
+
+# git log
