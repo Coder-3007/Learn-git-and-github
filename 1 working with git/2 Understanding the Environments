@@ -1,0 +1,27 @@
+Git Environment
+> Working (files what they did)
+> Staging 
+> Commit 
+
+
+
+File States
+> Tracked 
+. Unmodified
+. Modified
+. Staged
+> Untracked
+
+
+<!-- Viewing Status -->
+<!-- You can look with a command whats happening with  -->
+
+git status
+
+
+<!-- Restoring File -->
+
+git restore .
+
+<!-- this is an older version of git restore command that is still in use -->
+git checkout .
