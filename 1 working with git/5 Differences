@@ -1,0 +1,11 @@
+The differences with file
+
+the command for the differences is 
+
+git diff 
+
+
+
+getting log in one order
+
+git log --oneline

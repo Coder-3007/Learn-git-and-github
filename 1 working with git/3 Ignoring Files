@@ -1,0 +1,21 @@
+why ignore files?
+
+> Sensitive info
+> Personal notes
+> System Files
+
+Using .gitignore
+
+by using gitignore will ignore files and folders
+
+Global Ignore File
+
+<!-- you can add any thing in your projecgt using the config -->
+
+git config --global core.excludesfile [file]
+
+Clearing the cache
+
+<!-- it will delete all the files that are add recursively -->
+
+git rm -r --cached .

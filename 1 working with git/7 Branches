@@ -1,0 +1,50 @@
+Branches
+
+
+Looking at Branches
+
+git branch
+
+
+Copying a branch
+# it will copy the main branch 
+
+git switch -c NAME
+# git checkout -b NAME
+
+
+
+Merging
+
+# merge from one branch to another
+
+git merge <branch>
+
+
+
+switch
+# to shift or switch between branches we use
+
+git switch branchname
+
+
+Deleting a branch
+
+git branch --delete Name
+
+git branch -d Name
+
+# it igoner thing and forces to delete things
+git branch -D Name
+
+
+
+
+THIS SEQUENCE IS KNOWN IS  GIT FLOW 
+
+. feature/branch
+. Make changes
+. Merge to master
+. Delete old branch
+
+This is how developers works with real world projects

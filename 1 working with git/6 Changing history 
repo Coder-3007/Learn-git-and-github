@@ -1,0 +1,32 @@
+changing the history of the project
+
+
+Amending
+<!-- it will modify it -->
+
+git commit --amend
+
+git commit --ammend -m 'new commit'
+git commit --ammend --no-edit
+
+
+it will undo the changes it didnt delete the file it make it into the the orignal state 
+
+git reset
+
+it will delete all the commits you make changes to your file
+git reset --hard 
+
+
+
+Rebasing
+
+it is design to commit from one branch to another
+used to completely rewrite the history of commits
+
+git rebase <Branch>/<commit>
+git rebase --interactive <Branch>/<commit>
+<!-- limited commits where you put hte number head~2 or 3 -->
+git rebase -i HEAD~#
+<!-- it will bring all the commits -->
+git rebase -i --root

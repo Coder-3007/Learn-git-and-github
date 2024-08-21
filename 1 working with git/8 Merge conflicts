@@ -1,0 +1,5 @@
+Merging
+
+# merge from one branch to another
+
+git merge <branch>

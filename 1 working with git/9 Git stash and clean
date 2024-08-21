@@ -1,0 +1,50 @@
+stashing code
+
+Imagine you’re working on a feature, and you suddenly need to switch branches to work on something urgent, but you’re not ready to commit your changes yet. If you try to switch branches, Git may not allow it because you have uncommitted changes. With git stash, you can save those changes temporarily and switch branches safely. After resolving the urgent issue, you can return to your original branch and apply the stashed changes.
+
+
+you want to restore everything but you want to lose nothing for that we use 
+
+
+<!-- This command stashes your changes, returning your working directory to the last commit (a clean state). By default, this includes changes in tracked files, staged changes, and even untracked files (if you use specific flags). -->
+
+git stash
+
+<!-- You can also give your stash a description: -->
+
+git stash save "WIP: working on feature X"
+
+
+<!-- To see a list of all stashed changes, use:
+ -->
+git stash list
+
+<!-- To apply the most recent stash to your working directory: -->
+
+git stash apply
+
+
+<!-- This applies the changes but doesn’t remove the stash from your stash list. If you want to remove it after applying, use: -->
+
+git stash apply && git stash drop
+
+<!-- Alternatively, you can use: -->
+git stash pop
+
+
+
+GIT CLEAN
+
+nice way of removing any unwanted file which are untracked
+
+
+<!-- for dry run -->
+git clean -n   
+
+
+<!-- for directories -->
+git clean -d  
+
+<!-- to clean all by force -->
+git clean -f 
+

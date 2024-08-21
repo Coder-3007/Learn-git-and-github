@@ -1,0 +1,20 @@
+
+
+Deleting a file
+
+git rm 'File Name'
+
+# to git the file back  there are two steps
+
+First
+# it will restore from from the stagged
+git restore -S filename
+
+second
+
+git restore .
+
+
+Renaming a file
+
+git mv file name file name
