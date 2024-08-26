@@ -1,0 +1,28 @@
+
+Pull requests are a core feature of GitHub that facilitate collaboration and code review in software development. They allow developers to propose changes to a codebase, review others’ changes, and discuss modifications before they are merged into the main branch. Here are the key features of GitHub pull requests:
+
+1. Code Comparison (Diff)
+Pull requests show the differences between the source and target branches, highlighting the lines that have been added, modified, or removed.
+2. Review Process
+Reviewers: You can request specific people to review the pull request. Reviewers can approve changes, request modifications, or leave comments.
+Comments and Discussions: Both inline and general comments can be left on pull requests. This enables detailed discussions about specific code lines or the overall change.
+Suggestions: Inline comments can include suggested changes that the author can directly apply.
+3. Checks and Statuses
+Pull requests can be linked with Continuous Integration (CI) services to run automated tests or checks. The pull request page shows whether these checks have passed or failed.
+4. Merge Options
+Merge Commit: Creates a merge commit that combines the source branch with the target branch.
+Squash and Merge: Combines all commits from the source branch into a single commit in the target branch.
+Rebase and Merge: Reapplies commits from the source branch on top of the target branch without creating a merge commit.
+5. Draft Pull Requests
+Developers can create draft pull requests when a feature is still a work in progress. This signals to reviewers that the request isn’t ready for a final review but is open for feedback.
+6. Branch Protection Rules
+You can enforce branch protection rules that require pull requests to meet certain conditions (e.g., passing all checks, review approvals) before being merged.
+7. Conflict Resolution
+GitHub provides an interface to resolve merge conflicts directly within the pull request.
+8. Linked Issues
+Pull requests can be linked to issues, helping to track progress on bug fixes, features, or tasks. This ensures that the pull request is addressing a specific issue.
+9. Commit History
+The pull request shows a history of all commits that are part of the request, including when they were pushed and who made them.
+10. Notifications and Integrations
+GitHub provides notifications, webhooks, and integrations with other tools (like Slack) to alert team members when a pull request is created, updated, or merged.
+These features make GitHub pull requests a powerful tool for managing code changes, encouraging collaboration, and maintaining code quality in a development workflow.
